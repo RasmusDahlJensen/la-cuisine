@@ -1,0 +1,61 @@
+http://gs.statcounter.com/#browser-ww-monthly-201410-201410-map
+
+
+BOOTSTRAP DEVICE SIZES:
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+________________________________________________________________________
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+CAROUSEL IMAGE SIZE PREFERRED:
+1920 X 721px
+
+<script src="js/bootstrap.js" type="text/javascript"></script>
+
+<!--AUTOPLAY FIX-->
+<script type="text/javascript">
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 3000
+    });
+
+    $('.carousel').carousel('cycle');
+});
+</script>
+________________________________________________________________________
+FULL BACKGROUND/WITH BS
+
+body {
+    padding-top: 50px;
+    font-family: 'Open Sans','sans-serif';
+    background: url('../images/design/bg-lg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+MUMLETEKST:
+<h1>Accueil Compagnie</h1>
+<h3>Bienvenue sur la page de la Compagnie des Interfaces.</h3>
+<p>Nos recherches portent sur des systèmes mettant en jeu des liquides, 
+où les interfaces (liquide/air, liquide/solide, etc.) jouent un rôle 
+prépondérant.</p>
+<p>Les sujets que nous abordons sont très variés : superhydrophobie, 
+caléfaction, dépôt de films liquides, autopropulsion, impacts, 
+couplage avec des structures élastiques, etc.</p>
