@@ -55,7 +55,6 @@ p{
 header{
     height: 1000px;
     padding: 0 2%;
-    overflow: hidden;
 }
 header h1{
     padding: 0;
@@ -78,6 +77,19 @@ header h1{
     padding: 0;
     height: 100%;
     width: auto;
+    position: relative;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+}
+.box-one{
+    background-color: aqua;
+    padding: 1em;
 }
 
 /* LOGO */
