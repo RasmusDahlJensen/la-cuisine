@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-
+body{
+    margin: 0;
+    padding: 0;
+}
 /* NAVIGATION BAR */
 
 .navMenu{
@@ -43,15 +46,149 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
-
+.navButtons a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* HEADER */
+header{
+    height: 1000px;
+    padding: 0 2%;
+    overflow: hidden;
+}
+header h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cookie', cursive;
+    color: white;
+    font-size: 6em;
+    font-weight: 100;
+    padding-top: 5%;
+    margin-left: 75%;
+    white-space: nowrap;
+}
 
+.bgimage{
+    background-image: url(img/pexels-photo-357743.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+}
 
+/* LOGO */
+.logoBreak{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
 
 
 /* MAIN SECTION */
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    color: #66cc99;
+    font-weight: bold;
+    font-size: 25px;
+}
+h4{
+    color: #66cc99;
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.courses{
+    display: flex;
+    padding: 0 2%;
+}
+
+.coursesText{
+    padding: 0 5%;
+    width: 90%;
+}
+
+.logoBreak img{
+    width: auto;
+    height: auto;
+}
 
 
 
 /* FOOTER */
+
+.footer{
+    margin-top: 1%;
+    padding: 1%;
+    background-color: #66cc99;
+    display: flex;
+    gap: 50%
+}
+
+.footer img{
+    margin: 5% 0 0 25%;
+
+}
+
+.footerForm{
+    display: block;
+}
+
+
+input[type="text"], [type="tel"]
+{
+    background: transparent;
+    border: white solid;
+    margin: 15px 0 0 0;
+    height: 30px;
+    width: 500px;
+}
+
+textarea{
+    background: transparent;
+    border: white solid;
+    resize: none;
+    margin-top: 15px;
+    width: 500px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-left: 41%;
+}
+
+button{
+    background-color: transparent;
+    border: white solid;
+    margin-top: 10px;
+    padding: 10px 50px;
+}
+
+.footerLogo{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Form validation CSS */
+
+
+.error-text{
+    color: red;
+    font-weight: 900;
+}
+
+.border-error{
+    outline: 1px red solid;
+}
