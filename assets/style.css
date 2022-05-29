@@ -11,7 +11,7 @@ body{
 .navMenu{
     display: flex;
     justify-content: space-between;
-    padding: 0 2%;
+    padding: 10px 2% 0 2%;
     height: 70px;
 }
 
@@ -88,11 +88,36 @@ header h1{
     bottom: -40px;
     width: 100%;
 }
-.box-one{
-    background-color: aqua;
-    padding: 1em;
+
+.boxes h2{
+    color: white;
+    font-family: 'Cookie', cursive;
+    font-size: 2em;
+}
+.boxes a{
+    text-decoration: none;
 }
 
+.box-one,
+.box-two,
+.box-three,
+.box-four{
+    padding: 1em 5em 13em 5em;
+    
+}
+
+.box-one{
+    background-color: #f48fb190;
+}
+.box-two{
+    background-color: #ff8a6690;
+}
+.box-three{
+    background-color: #56cea090;
+}
+.box-four{
+    background-color: #59c7d590;
+}
 /* LOGO */
 .logoBreak{
     display: flex;
